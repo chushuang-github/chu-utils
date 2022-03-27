@@ -1,0 +1,31 @@
+{
+  "name": "chushuang",
+  "version": "1.0.0",
+  "description": "前端-自定义工具函数库",
+  "keywords": [
+    "array",
+    "axios",
+    "event-bind",
+    "event-bus",
+    "extend",
+    "function",
+    "object",
+    "pub-sub",
+    "string"
+  ],
+  "main": "./dist/utils.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "chushuang",
+  "license": "MIT",
+  "homepage": "https://github.com/chushuang-github/chu-utils",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chushuang-github/chu-utils"
+  },
+  "dependencies": {
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
