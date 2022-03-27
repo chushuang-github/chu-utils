@@ -15,7 +15,7 @@
 		exports["_"] = factory();
 	else
 		root["_"] = factory();
-})(self, function() {
+})(this, function() {
 return /******/ (() => { // webpackBootstrap
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({

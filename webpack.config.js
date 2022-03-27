@@ -13,6 +13,7 @@ module.exports = {
     // 向外暴露的对象的名称
     library: '_',
     // 打包生成库可以通过esm/commonjs/reqirejs的语法引入
-    libraryTarget: 'umd', 
+    libraryTarget: 'umd',
+    globalObject: 'this'
   },
 }
